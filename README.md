@@ -1,4 +1,6 @@
 gob2a
 =====
 
-binary to assic library for golang
+binary/assic converstion library for golang
+
+* quoted printable
