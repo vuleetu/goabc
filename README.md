@@ -1,7 +1,7 @@
 goabc
 =====
 
-Ascii/Binary Converstion library for golang
+Ascii/Binary Conversion library for golang
 
 **encoding supported currently**
 * quoted printable
