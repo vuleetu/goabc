@@ -1,7 +1,7 @@
-gob2a
+goabc
 =====
 
-binary/assic converstion library for golang
+Assic/Binary Converstion library for golang
 
 **encoding supported currently**
 * quoted printable
