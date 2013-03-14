@@ -28,6 +28,9 @@ func EncodeQuotedPrintable(bin []byte) (string, error) {
             }
             buf.WriteByte(hex)
             hex, err = ToHex(b%16)
+            if err != nil {
+                return "", err
+            }
             buf.WriteByte(hex)
             l += 3
         } else {
