@@ -1,4 +1,4 @@
-package gob2a
+package goabc
 
 import (
     "bytes"
