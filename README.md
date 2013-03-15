@@ -1,22 +1,21 @@
-goabc
-=====
+#goabc
 
 Ascii/Binary Conversion library for golang
 
 **encoding supported currently**
 * quoted printable
 
-Install
-===
+#Install
+
 go get github.com/vuleetu/goabc
 
-Usage
-===
+#Usage
+
 import goabc first
-```golang
+```Go
 import "github.com/vuleetu/goabc"
 ```
 
-```golang
+```Go
 goabc.EncodeQuotedPrintable([]byte("你好"))
 ```
